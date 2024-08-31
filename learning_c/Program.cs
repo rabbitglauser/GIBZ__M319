@@ -1,4 +1,30 @@
-﻿using System;
+﻿//    What is your name?
+//    What are three things you can’t live without? (Save in a list)
+//    Have you ever tried running at 2 AM? (Yes/No)
+//    What is your height in meters? (e.g., 1.75)
+//    What is your spirit animal? (It could be anything, from a lion to a toaster.)
+//    If you could have any superpower, what would it be?
+//    How many hours of sleep do you usually get per night?
+//    On a scale of 1 to 10, how would you rate your dancing skills? (Use decimals if needed)
+//    What is the strangest food you've ever eaten?
+//    If you were a fruit, which one would you be and why?
+//    How many cups of coffee (or tea) do you drink in a day? (Enter a number)
+//    What is your favorite meme or funny saying?
+//    What is one thing you are ridiculously good at that nobody knows about?
+//    If you could time travel, which period of history would you visit and why?
+//    What's your go-to dance move at a party?
+//    If you could swap lives with a fictional character for a day, who would it be?
+//    What is your favorite movie or TV show to rewatch over and over again?
+//    If you could live in any fictional universe, which one would you choose?
+//    What’s your guilty pleasure snack?
+//    If you were a superhero, what would your theme song be?
+//    What is the weirdest dream you’ve ever had?
+//    What’s a fun fact about you that most people don’t know?
+//    If you could talk to animals, what would be the first question you’d ask them?
+//    What is your favorite childhood memory?
+//    If you could only eat one food for the rest of your life, what would it be?
+
+using System;
 using System.ComponentModel.Design;
 
 namespace learning_c
@@ -26,6 +52,10 @@ namespace learning_c
             p.SleepHours();
             
             p.DancingSkill();
+            
+            p.StrongestFood();
+            
+            p.typeFruit();
         }
 
         private void DoIt()
@@ -105,6 +135,19 @@ namespace learning_c
             
             Console.WriteLine("My dancing skill is " + randomindex + "/10");
         }
-        
+
+        private void StrongestFood()
+        {
+            string[] listStrongestFood = { "Vindaloo", "Cau Cau", "Phaal Curry" };
+            
+            Console.WriteLine("the spiciest food is" + listStrongestFood);
+        }
+
+        private void typeFruit()
+        {
+            string[] listFruit = { "Apple", "Orange", "Banana", "Pineapple" };
+            
+            Console.WriteLine("This is what type of Fruit i would be" + listFruit);
+        }
     }
 }
