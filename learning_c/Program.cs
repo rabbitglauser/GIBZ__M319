@@ -22,6 +22,10 @@ namespace learning_c
             p.HeightGenerator();
             
             p.AnimalSpirit();
+            
+            p.SleepHours();
+            
+            p.DancingSkill();
         }
 
         private void DoIt()
@@ -49,7 +53,7 @@ namespace learning_c
 
         private void Running2Am()
         {
-            Console.WriteLine("Have you tried running 2am yes or no?");
+            Console.WriteLine("Have you tried running at 2am yes or no?");
 
             string userInput = Console.ReadLine();
 
@@ -87,5 +91,20 @@ namespace learning_c
     
             Console.WriteLine("This is your spirit animal: " + animalSpirit);
         }
+
+        private void SleepHours()
+        {
+            int randomIndex = random.Next(minValue:5, maxValue:10);
+            
+            Console.WriteLine("I am sleeping " + randomIndex + "hours per day");
+        }
+
+        private void DancingSkill()
+        {
+            int randomindex = random.Next(minValue:0, maxValue:10);
+            
+            Console.WriteLine("My dancing skill is " + randomindex + "/10");
+        }
+        
     }
 }
