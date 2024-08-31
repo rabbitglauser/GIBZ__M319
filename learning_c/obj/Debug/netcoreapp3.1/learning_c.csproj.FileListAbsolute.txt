@@ -1,0 +1,13 @@
+C:\Users\samue\RiderProjects\learning_c\learning_c\bin\Debug\netcoreapp3.1\learning_c.exe
+C:\Users\samue\RiderProjects\learning_c\learning_c\bin\Debug\netcoreapp3.1\learning_c.deps.json
+C:\Users\samue\RiderProjects\learning_c\learning_c\bin\Debug\netcoreapp3.1\learning_c.runtimeconfig.json
+C:\Users\samue\RiderProjects\learning_c\learning_c\bin\Debug\netcoreapp3.1\learning_c.runtimeconfig.dev.json
+C:\Users\samue\RiderProjects\learning_c\learning_c\bin\Debug\netcoreapp3.1\learning_c.dll
+C:\Users\samue\RiderProjects\learning_c\learning_c\bin\Debug\netcoreapp3.1\learning_c.pdb
+C:\Users\samue\RiderProjects\learning_c\learning_c\obj\Debug\netcoreapp3.1\learning_c.csprojAssemblyReference.cache
+C:\Users\samue\RiderProjects\learning_c\learning_c\obj\Debug\netcoreapp3.1\learning_c.csproj.CoreCompileInputs.cache
+C:\Users\samue\RiderProjects\learning_c\learning_c\obj\Debug\netcoreapp3.1\learning_c.AssemblyInfoInputs.cache
+C:\Users\samue\RiderProjects\learning_c\learning_c\obj\Debug\netcoreapp3.1\learning_c.AssemblyInfo.cs
+C:\Users\samue\RiderProjects\learning_c\learning_c\obj\Debug\netcoreapp3.1\learning_c.dll
+C:\Users\samue\RiderProjects\learning_c\learning_c\obj\Debug\netcoreapp3.1\learning_c.pdb
+C:\Users\samue\RiderProjects\learning_c\learning_c\obj\Debug\netcoreapp3.1\learning_c.genruntimeconfig.cache
