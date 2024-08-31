@@ -18,6 +18,10 @@ namespace learning_c
             p.ShowRandomEssentialItem();
             
             p.Running2Am();
+            
+            p.HeightGenerator();
+            
+            p.AnimalSpirit();
         }
 
         private void DoIt()
@@ -61,6 +65,27 @@ namespace learning_c
             {
                 Console.WriteLine("Pls answer with a yes or a no");
             }
+        }
+        private void HeightGenerator()
+        {
+            double[] heights = new double[] { 1.98, 1.7, 1.6, 1.5, 1.4, 1.3, 1.2, 1.1 };
+    
+            int randomIndex = random.Next(heights.Length);
+    
+            double randomHeight = heights[randomIndex];
+    
+            Console.WriteLine("My height is " + randomHeight + " meters");
+        }
+        
+        private void AnimalSpirit()
+        {
+            string[] listofAnimalsSpirits = { "Dog", "Cat", "Fish" };
+    
+            int randomIndex = random.Next(listofAnimalsSpirits.Length);
+    
+            string animalSpirit = listofAnimalsSpirits[randomIndex];
+    
+            Console.WriteLine("This is your spirit animal: " + animalSpirit);
         }
     }
 }
