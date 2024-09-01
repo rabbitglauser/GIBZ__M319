@@ -298,5 +298,3 @@ namespace learning_c
         }
     }
 }
-    }
-}
