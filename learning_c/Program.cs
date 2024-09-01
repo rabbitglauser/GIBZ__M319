@@ -55,7 +55,7 @@ namespace learning_c
             
             p.StrongestFood();
             
-            p.typeFruit();
+            p.TypeFruit();
         }
 
         private void DoIt()
@@ -143,11 +143,37 @@ namespace learning_c
             Console.WriteLine("the spiciest food is" + listStrongestFood);
         }
 
-        private void typeFruit()
+        private void TypeFruit()
         {
             string[] listFruit = { "Apple", "Orange", "Banana", "Pineapple" };
             
             Console.WriteLine("This is what type of Fruit i would be" + listFruit);
         }
+
+        private void CupsofCoffePerDay()
+        {
+            int randomeIndex = random.Next(minValue:1, maxValue:20);
+
+            Console.WriteLine("i drink" + randomeIndex + "per day");
+        }
+
+        private void Memes()
+        {
+            string[] listMemes = { "something1", "what  the dog doing", "something3", "What did the dog say" };
+            Console.WriteLine("random meme " + listMemes);
+        }
+
+        private void GoodAt()
+        {
+            string[] listofThingsGoodAt = {"Playing the piano", "coding", "skateboarding"};
+            Console.WriteLine("what i am good at" + listofThingsGoodAt);   
+        }
+
+        private void timetravel()
+        {
+            int[] listTimeTravel = { 1879, 1269, 693, 1941 };
+            Console.WriteLine("if i could time travel i would travel back to this date" + listTimeTravel);
+        }
+        
     }
 }
