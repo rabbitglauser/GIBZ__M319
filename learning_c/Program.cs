@@ -56,6 +56,34 @@ namespace learning_c
             p.StrongestFood();
             
             p.TypeFruit();
+            
+            p.CupsofCoffePerDay();
+            
+            p.Memes();
+            
+            p.GoodAt();
+            
+            p.timetravel();
+            
+            p.GOTODance();
+            
+            p.FictionalCharacter();
+            
+            p.favoriteMovie();
+            
+            p.GuiltyPleasureSnack();
+            
+            p.SuperheroThemeSong();
+            
+            p.WeirdestDream();
+            
+            p.FunFactAboutMe();
+            
+            p.QuestionForAnimals();
+            
+            p.FavoriteChildhoodMemory();
+            
+            p.OneFoodForever();
         }
 
         private void DoIt()
@@ -174,6 +202,101 @@ namespace learning_c
             int[] listTimeTravel = { 1879, 1269, 693, 1941 };
             Console.WriteLine("if i could time travel i would travel back to this date" + listTimeTravel);
         }
+
+        private void GOTODance()
+        {
+        string[] ListGoToDanceMoves = { "Shoulder Lean", "The Floss", "Running Man" };
+        Console.WriteLine("my go to dance move is " + string.Join(", ", ListGoToDanceMoves));
+        }
         
+        private void FictionalCharacter()
+        {
+            string[] ListFictionalCharacters = { "Batman", "Superman", "Spiderman" };
+            Console.WriteLine("My favorite fictional character is " + string.Join(", ", ListFictionalCharacters));
+        }
+        
+        private void favoriteMovie()
+        {
+            string[] ListFavoriteMovies = { "Passengers", "Deadpool and wolverine", "Garfield Movie" };
+            Console.WriteLine("My favortie movie is " + string.Join(", ", ListFavoriteMovies));
+        }
+         private void GuiltyPleasureSnack()
+        {
+            string[] guiltyPleasureSnacks = { "Chocolate", "Chips", "Ice Cream", "Gummy Bears" };
+
+            int randomIndex = random.Next(guiltyPleasureSnacks.Length);
+
+            string guiltySnack = guiltyPleasureSnacks[randomIndex];
+
+            Console.WriteLine("My guilty pleasure snack is " + guiltySnack);
+        }
+
+        private void SuperheroThemeSong()
+        {
+            string[] superheroSongs = { "Eye of the Tiger", "Heroes by David Bowie", "Thunderstruck by AC/DC", "Stronger by Kanye West" };
+
+            int randomIndex = random.Next(superheroSongs.Length);
+
+            string themeSong = superheroSongs[randomIndex];
+
+            Console.WriteLine("If I were a superhero, my theme song would be " + themeSong);
+        }
+
+        private void WeirdestDream()
+        {
+            string[] weirdDreams = { "Flying over cities", "Talking to a giant cat", "Riding a rainbow unicorn", "Living inside a giant sandwich" };
+
+            int randomIndex = random.Next(weirdDreams.Length);
+
+            string dream = weirdDreams[randomIndex];
+
+            Console.WriteLine("The weirdest dream I ever had was " + dream);
+        }
+
+        private void FunFactAboutMe()
+        {
+            string[] funFacts = { "I can juggle", "I have a black belt in karate", "I once met a celebrity", "I can play 5 instruments" };
+
+            int randomIndex = random.Next(funFacts.Length);
+
+            string funFact = funFacts[randomIndex];
+
+            Console.WriteLine("A fun fact about me that most people don't know is: " + funFact);
+        }
+
+        private void QuestionForAnimals()
+        {
+            string[] animalQuestions = { "What do you think about humans?", "Do you have a favorite human activity?", "What's the secret to happiness?", "What do you do for fun?" };
+
+            int randomIndex = random.Next(animalQuestions.Length);
+
+            string question = animalQuestions[randomIndex];
+
+            Console.WriteLine("If I could talk to animals, the first question I'd ask them is: " + question);
+        }
+
+        private void FavoriteChildhoodMemory()
+        {
+            string[] childhoodMemories = { "Going to the beach", "Winning a school competition", "Playing in the rain", "Building a treehouse" };
+
+            int randomIndex = random.Next(childhoodMemories.Length);
+
+            string memory = childhoodMemories[randomIndex];
+
+            Console.WriteLine("My favorite childhood memory is " + memory);
+        }
+
+        private void OneFoodForever()
+        {
+            string[] foods = { "Pizza", "Sushi", "Pasta", "Burgers" };
+
+            int randomIndex = random.Next(foods.Length);
+
+            string food = foods[randomIndex];
+
+            Console.WriteLine("If I could only eat one food for the rest of my life, it would be " + food);
+        }
+    }
+}
     }
 }
